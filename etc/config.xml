@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+  <default>
+    <ajaxscroll>
+      <general>
+        <enabled>1</enabled>
+        <enabled_top>1</enabled_top>
+        <topb_icon>default/ui.totop.black.png</topb_icon>
+        <loading_icon>default/loading_bar.gif</loading_icon>
+        <loading_img>default/loader.gif</loading_img>
+      </general>
+    </ajaxscroll>
+  </default>
+</config>

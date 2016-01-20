@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+  <head>
+    <script src="Emizen_Ajaxscroll::js/ajaxscroll/jquery-1.7.2.min.js"/> 
+    <script src="Emizen_Ajaxscroll::js/ajaxscroll/jquery.ajaxscroll.min.js"/>
+    <script src="Emizen_Ajaxscroll::js/ajaxscroll/easing.js"/>
+    <script src="Emizen_Ajaxscroll::js/ajaxscroll/jquery.ui.totop.js"/>
+    <css src="Emizen_Ajaxscroll::css/ajaxscroll/ajaxscroll.css" />
+    
+  </head>
+  <body>
+    <referenceContainer name="content">
+      <block class="Magento\Framework\View\Element\Template" template="Emizen_Ajaxscroll::ajaxscroll/ajaxscroll.phtml" name="ajaxscroll_js"/>
+    </referenceContainer>
+  </body>
+</page>
